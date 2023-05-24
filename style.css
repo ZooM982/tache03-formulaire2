@@ -1,0 +1,205 @@
+.grid{
+	display: grid;
+	grid-template-columns: auto;
+	padding: 100px 100px;
+	margin: auto;
+}
+.div1{
+	background: linear-gradient(to right, darkblue, deeppink);
+	display: inline-flex;
+	width: 750px;
+	height: 100%;
+	margin: auto;
+	border: 1px solid black;
+	
+}
+.photo{
+	display: inline-flex;
+	padding: 65px;
+	margin: auto;
+	width: 70%;
+	height: 100%;
+}
+.menu0 h1{
+	color: pink;
+	text-align: center;
+	font-size: 25px;
+}
+.menu0{
+	background-color: midnightblue;
+	color: white;
+	width: 70%;
+	height: 74%;
+	text-align: center;
+}
+.menu0 input, textarea{
+	display: box;
+	box-sizing: border-box;
+	text-decoration: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: initial;
+	padding-top: 10px;
+	margin-left: 10%;
+	align-items: center;
+}
+.menu0 input[type="submit"]{
+	background: linear-gradient(to bottom, pink, midnightblue);
+    color: white;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 10%;
+
+
+}
+.menu0 select{
+	background-color: initial;
+	color: white;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	float: inline-start;
+	float: left;
+	padding-top: 1px;
+	padding-left: 30px;
+
+}
+.div3{
+	width: 0%;
+}
+
+.div3 img{
+	width: 300px;
+}
+.div2 form{
+    padding: 50px 0px;
+    height: 250px;
+
+}
+
+.div4{
+	background-color: black;
+	display: inline-flex;
+	width: 750px;
+	height: 100%;
+	margin: auto;
+	border: 1px solid black;
+}
+.div6 h1{
+	font-size: 25px;
+	text-align: center;
+}
+.div6 .text{
+	font-size: 10px;
+	color: peru;
+}
+.div6 form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+    margin: auto;
+    height: 450px;
+}
+.div6 input{
+	display: box;
+	box-sizing: border-box;
+	padding-top: 15px;
+	text-decoration: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: initial;
+}
+.div6 input[type="submit"]{
+	background-color: peru;
+    color: white;
+	text-decoration: none;
+	height: 60px;
+	weight: 30px;
+	cursor: pointer;
+	margin-right: 200px;
+	border: none;
+	float: left;
+	text-align: center;
+	padding: 1px;
+}
+.div6 select{
+	text-decoration: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: initial;
+	color: white;
+}
+.div5 img{
+	height: 500px;
+
+}
+
+.button{
+	display: inline-flex;
+	color: black;
+	margin-bottom: 10px;
+}
+.ch1{
+	background-color: white;
+	border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.ch2 P{
+	background-color: peru;
+	border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    color: black;
+    
+}
+.ch2 span{
+	display: inline-block;
+	background-color: black;
+	color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.ch3{
+	background-color: white;
+	border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.ch4{
+	background-color: white;
+	border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.ch5{
+	background-color: white;
+	border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;text-align: center;
+}
+
+.button p{
+	font-size: 10px;
+	color: black;
+}
